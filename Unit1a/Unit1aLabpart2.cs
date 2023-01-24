@@ -8,7 +8,7 @@ namespace Variables
     {
       string name = "Jimmy";
 	  int myAge = 15;
-	  myAge = 16; //Jimmy's number is now 16
+	  myAge += 1; //Jimmy's number is now 16
 	  Console.WriteLine(name);
 	  Console.WriteLine(myAge);
     }
